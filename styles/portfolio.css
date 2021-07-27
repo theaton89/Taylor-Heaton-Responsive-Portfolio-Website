@@ -12,3 +12,7 @@ p {
 .header-intro {
   padding-top: 200px;
 }
+
+.hero {
+  background: gray;
+}
