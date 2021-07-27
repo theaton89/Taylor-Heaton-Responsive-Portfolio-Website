@@ -8,3 +8,7 @@ h1 {
 p {
   font-family: "Poppins", sans-serif;
 }
+
+.header-intro {
+  padding-top: 200px;
+}
