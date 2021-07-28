@@ -25,3 +25,7 @@ p {
 .header-main {
   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
+
+nav {
+  font-family: "Poppins", sans-serif;
+}
