@@ -10,9 +10,9 @@ p {
 }
 
 .header-intro {
-  padding-top: 200px;
+  margin-top: 200px;
 }
 
-.hero {
-  background: gray;
+.header-main {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
