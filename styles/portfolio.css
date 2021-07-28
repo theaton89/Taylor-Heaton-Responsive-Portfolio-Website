@@ -1,38 +1,55 @@
-/*font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif*/
-
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 76px;
+:root {
+  --gradient-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-h3 {
-  font-family: "Playfair Display", serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+}
+
+.hero h3 {
+  font-family: var(--heading-font-family);
   font-size: 24px;
   margin-top: 18px;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-size: 34px;
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 36px;
   margin-bottom: 0px;
+  font-weight: bold;
 }
 
 .header-intro {
-  margin-top: 200px;
+  margin-top: 130px;
 }
 
 .header-main {
-  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background: var(--gradient-color);
 }
 
 nav {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
 }
 
 .btn-branding {
   background: white;
   border-radius: 4px;
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
+  line-height: 34px;
+  padding: 12px 20px;
 }
