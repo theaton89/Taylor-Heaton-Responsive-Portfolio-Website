@@ -70,6 +70,7 @@ nav {
 
 .showcase-title {
   font-family: var(--heading-font-family);
+  padding-top: 32px;
 }
 
 .img-display {
@@ -87,7 +88,7 @@ i {
   background: var(--gradient-color);
   padding-bottom: 40px;
   padding-top: 28px;
-  border-radius: 0px 0px 40px 40px;
+  max-width: 100%;
 }
 
 a .contact-btn {
@@ -166,9 +167,13 @@ a .contact-btn {
 }
 
 .footer-arrow:hover {
-  color: #e3d3c5;
+  color: black;
 }
 
 .arrow-link {
-  color: black;
+  color: #e3d3c5;
+}
+
+.my-projects {
+  max-width: 100%;
 }
