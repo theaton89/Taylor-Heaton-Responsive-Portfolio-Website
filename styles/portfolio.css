@@ -15,6 +15,10 @@ h6 {
   font-weight: bold;
 }
 
+p {
+  font-family: var(--default-font-family);
+}
+
 .hero h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -155,4 +159,16 @@ a .contact-btn {
 
 .contact-header {
   font-size: 48px;
+}
+
+.footer-arrow {
+  font-size: 56px;
+}
+
+.footer-arrow:hover {
+  color: #e3d3c5;
+}
+
+.arrow-link {
+  color: black;
 }
