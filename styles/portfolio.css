@@ -139,10 +139,10 @@ a .contact-btn {
   color: #34a953;
 }
 
-.email-link:hover {
+.contact-icons {
   color: black;
 }
 
-.email-link {
+.contact-icons:hover {
   color: black;
 }
