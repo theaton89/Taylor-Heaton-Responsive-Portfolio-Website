@@ -54,7 +54,7 @@ nav {
   padding: 12px 20px;
 }
 
-img {
+.header-image {
   border-radius: 4px 0 0 4px;
 }
 
@@ -64,12 +64,10 @@ img {
   margin-top: 18px;
 }
 
-.project-img {
-  background: #f0e7df;
-  padding: 14px;
-  border-radius: 4px;
-}
-
 .showcase-title {
   font-family: var(--heading-font-family);
+}
+
+.img-display {
+  background: #f0e7df;
 }
