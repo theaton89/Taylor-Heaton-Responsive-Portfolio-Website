@@ -82,7 +82,7 @@ i {
 .contact-section {
   background: var(--gradient-color);
   padding-bottom: 100px;
-
+  padding-top: 20px;
   border-radius: 0px 0px 40px 40px;
 }
 
@@ -137,4 +137,12 @@ a .contact-btn {
 
 .seo {
   color: #34a953;
+}
+
+.email-link:hover {
+  color: black;
+}
+
+.email-link {
+  color: black;
 }
