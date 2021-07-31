@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
   color: black;
-
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
@@ -70,4 +70,27 @@ nav {
 
 .img-display {
   background: #f0e7df;
+}
+
+i {
+  font-size: 32px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  background: var(--gradient-color);
+  padding-bottom: 200px;
+  padding-top: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.contact-btn:hover {
+  text-decoration: none;
+}
+
+a .contact-btn {
+  color: black;
+  border: 10px;
 }
