@@ -177,3 +177,27 @@ a .contact-btn {
 .my-projects {
   max-width: 100%;
 }
+
+@media (max-width: 768px) {
+  .hero p {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+  }
+  .hero h3 {
+    font-size: 16px;
+  }
+  .header-intro {
+    margin-top: 20px;
+  }
+  .icons {
+    display: none;
+  }
+
+  .contact-button {
+    display: none;
+  }
+}
