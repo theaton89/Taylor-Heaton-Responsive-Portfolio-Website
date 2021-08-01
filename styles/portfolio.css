@@ -200,4 +200,13 @@ a .contact-btn {
   .contact-button {
     display: none;
   }
+  .project-image {
+    display: none;
+  }
+  .project-showcase {
+    font-size: 28px;
+  }
+  .project-showcase h1 {
+    text-align: left;
+  }
 }
