@@ -210,3 +210,17 @@ a .contact-btn {
     text-align: left;
   }
 }
+
+.btn-project {
+  background: var(--gradient-color);
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: var(--default-font-family);
+
+  line-height: 34px;
+  padding: 6px 6px;
+  display: block;
+  max-width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
