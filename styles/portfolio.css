@@ -74,7 +74,7 @@ nav {
 }
 
 .img-display {
-  background: #f0e7df;
+  background: #7f7f7f;
 }
 
 i {
@@ -227,4 +227,9 @@ a .contact-btn {
 
 .project-description {
   opacity: 0.6;
+}
+
+.project-image img {
+  width: 100%;
+  height: 280px;
 }
