@@ -209,6 +209,11 @@ a .contact-btn {
   .project-showcase h1 {
     text-align: left;
   }
+
+  footer {
+    padding: 48px;
+    padding-bottom: 10px;
+  }
 }
 
 .btn-project {
