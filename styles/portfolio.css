@@ -252,8 +252,8 @@ a .contact-btn {
 }
 
 .about-hero {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 ul {
@@ -262,4 +262,14 @@ ul {
 
 .about-image {
   width: 100%;
+}
+
+.mots-link {
+  color: #618ac6;
+}
+
+.mots-link:hover {
+  text-decoration: none;
+
+  opacity: 0.5;
 }
