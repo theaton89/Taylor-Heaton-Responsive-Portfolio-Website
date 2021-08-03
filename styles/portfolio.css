@@ -299,3 +299,13 @@ ul {
 
   opacity: 0.5;
 }
+
+.email-taylor {
+  color: black;
+}
+
+.email-taylor:hover {
+  color: black;
+
+  text-decoration: none;
+}
