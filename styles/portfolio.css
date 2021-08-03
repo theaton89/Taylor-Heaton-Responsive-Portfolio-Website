@@ -251,10 +251,15 @@ a .contact-btn {
   border-radius: 4px;
 }
 
-.about-image {
-  width: 100%;
+.about-hero {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 ul {
   font-family: var(--default-font-family);
+}
+
+.about-image {
+  width: 100%;
 }
