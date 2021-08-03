@@ -238,3 +238,7 @@ a .contact-btn {
   width: 100%;
   height: 280px;
 }
+
+.about-section {
+  background: var(--gradient-color);
+}
