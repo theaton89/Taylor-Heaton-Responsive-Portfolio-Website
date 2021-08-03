@@ -250,3 +250,11 @@ a .contact-btn {
   border: 4px solid #e3d3c5;
   border-radius: 4px;
 }
+
+.about-image {
+  width: 100%;
+}
+
+ul {
+  font-family: var(--default-font-family);
+}
