@@ -240,9 +240,6 @@ a .contact-btn {
   .about-p2 {
     display: none;
   }
-  .about-p3 {
-    display: none;
-  }
 }
 
 .btn-project {
@@ -311,4 +308,12 @@ ul {
   color: black;
 
   text-decoration: none;
+}
+
+.about-p {
+  line-height: 1.75;
+}
+
+.about-p2 {
+  line-height: 1.75;
 }
