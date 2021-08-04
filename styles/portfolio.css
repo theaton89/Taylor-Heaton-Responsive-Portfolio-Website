@@ -74,7 +74,7 @@ nav {
 }
 
 .img-display {
-  background: #ede3d9;
+  background: black;
 }
 
 i {
@@ -246,17 +246,22 @@ a .contact-btn {
 }
 
 .btn-project {
-  background: #ede3d9;
+  background: black;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 16px;
   font-family: var(--default-font-family);
-
+  color: white;
   line-height: 34px;
-  padding: 6px 6px;
+  padding: 8px 8px;
   display: block;
   max-width: 40%;
   margin: 0 auto;
   margin-bottom: 20px;
+  box-shadow: 4px 6px 10px #7c7c7c;
+}
+
+.btn-project:hover {
+  color: white;
 }
 
 .project-description {
@@ -273,7 +278,7 @@ a .contact-btn {
 }
 
 .cert-img {
-  border: 4px solid #e3d3c5;
+  border: 4px solid black;
   border-radius: 4px;
 }
 
