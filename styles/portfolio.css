@@ -246,7 +246,7 @@ a .contact-btn {
 }
 
 .btn-project {
-  background: black;
+  background: #ede2d9;
   border-radius: 6px;
   font-size: 16px;
   font-family: var(--default-font-family);
