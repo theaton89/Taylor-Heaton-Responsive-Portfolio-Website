@@ -1,7 +1,8 @@
 :root {
-  --gradient-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-  --heading-font-family: "Playfair Display", serif;
+  --primary-color: #e8fdff;
+  --heading-font-family: "Playfair display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #05aabb;
 }
 
 h1,
@@ -42,7 +43,7 @@ p {
 }
 
 .header-main {
-  background: var(--gradient-color);
+  background: var(--primary-color);
 }
 
 nav {
@@ -50,12 +51,13 @@ nav {
 }
 
 .btn-branding {
-  background: white;
+  background: var(--secondary-color);
   border-radius: 6px;
   font-size: 18px;
   font-family: var(--default-font-family);
   line-height: 34px;
   padding: 12px 20px;
+  color: white;
 }
 
 .header-image {
@@ -66,11 +68,14 @@ nav {
   font-family: var(--heading-font-family);
   font-size: 24px;
   margin-top: 18px;
+  color: var(--secondary-color);
 }
 
 .showcase-title {
   font-family: var(--heading-font-family);
-  padding-top: 32px;
+  padding-top: 60px;
+  color: var(--secondary-color);
+  font-size: 48px;
 }
 
 .img-display {
@@ -85,19 +90,10 @@ i {
 }
 
 .contact-section {
-  background: var(--gradient-color);
+  background: var(--primary-color);
   padding-bottom: 40px;
   padding-top: 28px;
   max-width: 100%;
-}
-
-a .contact-btn {
-  background: white;
-  border-radius: 6px;
-  font-size: 18px;
-  font-family: var(--default-font-family);
-  line-height: 34px;
-  padding: 12px 20px;
 }
 
 .html {
@@ -145,7 +141,7 @@ a .contact-btn {
 }
 
 .contact-icons {
-  color: black;
+  color: var(--secondary-color);
 }
 
 .contact-icons:hover {
@@ -171,7 +167,7 @@ a .contact-btn {
 }
 
 .arrow-link {
-  color: #e3d3c5;
+  color: var(--secondary-color);
 }
 
 .my-projects {
@@ -243,9 +239,9 @@ a .contact-btn {
 }
 
 .btn-project {
-  background: #f5f0ec;
+  background: var(--secondary-color);
 
-  color: black;
+  color: white;
   padding: 12px 20px;
   border-radius: 6px;
   font-size: 18px;
@@ -256,7 +252,8 @@ a .contact-btn {
 }
 
 .btn-project:hover {
-  color: white;
+  background: var(--primary-color);
+  transition: 100ms ease-in-out;
 }
 
 .project-description {
@@ -269,7 +266,7 @@ a .contact-btn {
 }
 
 .about-section {
-  background: var(--gradient-color);
+  background: var(--primary-color);
 }
 
 .cert-img {
@@ -291,17 +288,22 @@ ul {
 }
 
 .mots-link {
-  color: #618ac6;
+  color: var(--secondary-color);
+  font-weight: bold;
 }
 
 .mots-link:hover {
   text-decoration: none;
 
-  opacity: 0.5;
+  opacity: 0.7;
+}
+
+mots-link:visited {
+  color: var(--secondary-color);
 }
 
 .email-taylor {
-  color: black;
+  color: var(--secondary-color);
 }
 
 .email-taylor:hover {
@@ -310,10 +312,31 @@ ul {
   text-decoration: none;
 }
 
-.about-p {
-  line-height: 1.75;
-}
-
+.about-p,
 .about-p2 {
   line-height: 1.75;
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+.about-h1 {
+  font-size: 64px;
+}
+.logo {
+  color: Var(--secondary-color);
+}
+
+.nav-link {
+  color: black;
+  opacity: 0.6;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+  opacity: 1;
+}
+
+.active {
+  color: var(--secondary-color);
+  opacity: 1;
 }
