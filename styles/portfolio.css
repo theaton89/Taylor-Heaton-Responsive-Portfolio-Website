@@ -246,18 +246,16 @@ a .contact-btn {
 }
 
 .btn-project {
-  background: #ede2d9;
+  background: #f5f0ec;
+
+  color: black;
+  padding: 12px 20px;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--default-font-family);
-  color: white;
   line-height: 34px;
-  padding: 8px 8px;
   display: block;
-  max-width: 40%;
   margin: 0 auto;
-  margin-bottom: 20px;
-  box-shadow: 4px 4px 6px #7c7c7c;
 }
 
 .btn-project:hover {
