@@ -197,16 +197,15 @@ i {
     padding-bottom: 10px;
   }
 
-  .about-h1 {
-    font-size: 28px;
+  .about-hero h1 {
+    font-size: 48px;
     text-align: center;
   }
 
-  .about-h3 {
+  .about-hero h3 {
     font-size: 24px;
     text-align: center;
-    line-height: 1.3;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .about-p {
@@ -218,7 +217,8 @@ i {
   .section-divider,
   .about-p2,
   .contact-button,
-  .project-image {
+  .project-image,
+  .about-section-divider {
     display: none;
   }
 }
