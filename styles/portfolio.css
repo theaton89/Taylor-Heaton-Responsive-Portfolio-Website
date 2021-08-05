@@ -91,7 +91,7 @@ nav {
 
 i {
   font-size: 32px;
-  margin: 0 16px 0 16px;
+  margin: 16px 16px 0 16px;
 }
 
 .contact-section {
@@ -220,6 +220,10 @@ i {
   .project-image,
   .about-section-divider {
     display: none;
+  }
+
+  .showcase-title {
+    padding-top: 28px;
   }
 }
 
