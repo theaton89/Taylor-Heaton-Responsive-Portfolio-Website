@@ -279,6 +279,9 @@ i {
   color: Var(--secondary-color);
   font-size: 36px;
 }
+.logo:hover {
+  color: var(--secondary-color);
+}
 
 .nav-link {
   color: black;
