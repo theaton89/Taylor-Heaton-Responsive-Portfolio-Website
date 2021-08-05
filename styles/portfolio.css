@@ -69,9 +69,9 @@ nav {
 
 .showcase-title {
   font-family: var(--heading-font-family);
-  padding-top: 60px;
+  padding-top: 40px;
 
-  font-size: 48px;
+  font-size: 68px;
 }
 
 .img-display {
@@ -336,4 +336,16 @@ mots-link:visited {
 .active {
   color: var(--secondary-color);
   opacity: 1;
+}
+
+.section-divider {
+  background: #faf7fe;
+  padding: 48px;
+}
+
+.page-down i {
+  font-size: 124px;
+  display: block;
+  margin: 0 auto;
+  color: var(--secondary-color);
 }
