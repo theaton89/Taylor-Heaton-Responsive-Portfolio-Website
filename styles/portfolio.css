@@ -76,7 +76,7 @@ nav {
 
 .project-showcase {
   font-family: var(--heading-font-family);
-  font-size: 24px;
+  font-size: 32px;
   margin-top: 18px;
   color: var(--secondary-color);
 }
@@ -171,7 +171,7 @@ i {
 
 @media (max-width: 768px) {
   .hero p {
-    font-size: 20px;
+    font-size: 28px;
     margin-top: 12px;
   }
   .hero h1 {
@@ -179,18 +179,15 @@ i {
     margin-bottom: 0px;
   }
   .hero h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .header-intro {
     margin-top: 20px;
   }
-  .icons {
-    display: none;
+  .showcase-title {
+    font-size: 42px;
   }
 
-  .contact-button {
-    display: none;
-  }
   .project-image {
     display: none;
   }
@@ -224,11 +221,9 @@ i {
     margin-bottom: 32px;
   }
 
-  .about-list {
-    display: none;
-  }
-
-  .about-p2 {
+  .section-divider,
+  .about-p2,
+  .contact-button {
     display: none;
   }
 }
@@ -236,7 +231,7 @@ i {
 .project-description {
   opacity: 0.6;
   text-align: start;
-  margin: 4px 20px;
+  margin: 0px 20px 20px 20px;
 }
 
 .project-image img {
@@ -268,7 +263,6 @@ ul {
 
 .mots-link {
   color: var(--secondary-color);
-  font-weight: bold;
 }
 
 .mots-link:hover {
