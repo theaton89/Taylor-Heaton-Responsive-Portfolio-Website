@@ -156,7 +156,7 @@ i {
 }
 
 .footer-arrow {
-  font-size: 56px;
+  font-size: 124px;
 }
 
 .footer-arrow:hover {
@@ -343,9 +343,18 @@ mots-link:visited {
   padding: 48px;
 }
 
-.page-down i {
+.down-icon {
   font-size: 124px;
   display: block;
   margin: 0 auto;
   color: var(--secondary-color);
+}
+
+.down-icon:hover {
+  color: var(--secondary-color);
+  opacity: 0.6;
+}
+
+.page-down:hover {
+  text-decoration: none;
 }
