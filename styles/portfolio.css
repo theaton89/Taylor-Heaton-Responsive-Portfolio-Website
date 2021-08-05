@@ -251,13 +251,13 @@ i {
 .p-link,
 .p-link:visited,
 .email-taylor {
-  color: var(--secondary-color);
+  color: black;
+  font-weight: bold;
 }
 
 .p-link:hover {
   text-decoration: none;
   color: var(--secondary-color);
-  opacity: 0.7;
 }
 
 .email-taylor:hover {
@@ -317,4 +317,8 @@ i {
 }
 .arrow-link:hover {
   text-decoration: none;
+}
+
+.certifications h2 {
+  font-size: 54px;
 }
