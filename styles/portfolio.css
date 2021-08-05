@@ -3,30 +3,32 @@
   --heading-font-family: "Playfair display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #05aabb;
+  --tertiary-color: #faf7fe;
 }
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
-p {
+p,
+ul {
   font-family: var(--default-font-family);
 }
 
-.hero h1 {
+.hero h1,
+.hero h3 {
   font-family: var(--heading-font-family);
+}
+
+.hero h1 {
   font-size: 96px;
 }
 
 .hero h3 {
-  font-family: var(--heading-font-family);
   font-size: 24px;
   margin-top: 18px;
 }
@@ -84,15 +86,12 @@ nav {
 .showcase-title {
   font-family: var(--heading-font-family);
   padding-top: 40px;
-
   font-size: 68px;
 }
 
 i {
   font-size: 32px;
-  margin-right: 16px;
-  margin-left: 16px;
-  margin-bottom: 0px;
+  margin: 0 16px 0 16px;
 }
 
 .contact-section {
@@ -157,7 +156,6 @@ i {
 
 .taylors-email {
   font-family: var(--default-font-family);
-
   font-size: 20px;
 }
 
@@ -186,10 +184,6 @@ i {
   }
   .showcase-title {
     font-size: 42px;
-  }
-
-  .project-image {
-    display: none;
   }
   .project-showcase {
     font-size: 28px;
@@ -223,7 +217,8 @@ i {
 
   .section-divider,
   .about-p2,
-  .contact-button {
+  .contact-button,
+  .project-image {
     display: none;
   }
 }
@@ -240,7 +235,7 @@ i {
 }
 
 .about-section {
-  background: var(--primary-color);
+  background: var(--tertiary-color);
 }
 
 .cert-img {
@@ -253,30 +248,16 @@ i {
   padding-right: 40px;
 }
 
-ul {
-  font-family: var(--default-font-family);
-}
-
-.about-image {
-  width: 100%;
-}
-
-.mots-link {
+.p-link,
+.p-link:visited,
+.email-taylor {
   color: var(--secondary-color);
 }
 
-.mots-link:hover {
+.p-link:hover {
   text-decoration: none;
   color: var(--secondary-color);
   opacity: 0.7;
-}
-
-mots-link:visited {
-  color: var(--secondary-color);
-}
-
-.email-taylor {
-  color: var(--secondary-color);
 }
 
 .email-taylor:hover {
@@ -288,7 +269,7 @@ mots-link:visited {
 .about-p2 {
   line-height: 1.75;
   opacity: 0.7;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .about-h1 {
@@ -296,6 +277,7 @@ mots-link:visited {
 }
 .logo {
   color: Var(--secondary-color);
+  font-size: 36px;
 }
 
 .nav-link {
@@ -303,18 +285,19 @@ mots-link:visited {
   opacity: 0.6;
 }
 
-.nav-link:hover {
-  color: var(--secondary-color);
-  opacity: 1;
-}
-
+.nav-link:hover,
 .active {
   color: var(--secondary-color);
   opacity: 1;
 }
 
 .section-divider {
-  background: #faf7fe;
+  background: var(--tertiary-color);
+  padding: 48px;
+}
+
+.about-section-divider {
+  background: var(--primary-color);
   padding: 48px;
 }
 
